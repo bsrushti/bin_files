@@ -1,0 +1,125 @@
+[default]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             =
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[no-vpn]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             =
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[non-live-admin]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             = arn:aws:iam::114240581141:role/AWS-ADM
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[non-live-dev]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             = arn:aws:iam::114240581141:role/AWS-DEV
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[live-dev]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             = arn:aws:iam::895325053401:role/AWS-DEV
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[live-admin]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          = 
+resource_id          =
+subdomain            =
+role_arn             = arn:aws:iam::895325053401:role/AWS-ADM
+region               =
+http_attempts_count  =
+http_retry_delay     =
+
+[dr-dev-admin]
+app_id               =
+url                  = https://adfs.ottogroup.com
+username             = ocn\sbhoyar
+provider             = ADFS2
+mfa                  = Authenticator
+skip_verify          = false
+timeout              = 0
+aws_urn              = urn:amazon:webservices
+aws_session_duration = 3600
+aws_profile          =
+resource_id          =
+subdomain            =
+role_arn             = arn:aws:iam::658753139666:role/AWS-ADM
+region               =
+http_attempts_count  =
+http_retry_delay     =

@@ -92,6 +92,8 @@ brew cask install visual-studio-code
 echo "Installing skim pdf reader";
 brew cask install skim
 
+echo "Installing tldr";
+brew install tldr
 #echo "Installing virtualbox and vagrant"
 #brew cask install virtualbox
 #brew cask install vagrant
